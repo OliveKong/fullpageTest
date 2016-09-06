@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/css3.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.easings.min.js"></script>-->
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['', '', '#fff', '#fff'],
+				easing:'easeInOutCubic',
+				easingcss3: 'linear',
+				css3:true,
+				navigation:true,
+				scrollingSpeed:500,
+				scrollOverflow:true,
+				paddingTop:0
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="header" class="fixed js-header">
+		<div class="header">
+			<div class="container">
+				<a class="logoM">OliveKong</a>
+				<div class="floatR"></div>
+				<ul class="floatR">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="fullpage">
+		<div class="section section-home active">
+			<div class="slide slide1"> </div>
+			<div class="slide slide2"></div>
+		</div>
+		<div class="section section-intro">
+			<div class="container">
+				<div class="row">
+					<div class="text-center col-xs-4 col-md-4">
+						<div class="one">
+							<div class="icon umbrella"></div>
+							<span class="icon icon-yudi"></span>
+							<span class="icon icon-yudi yudi2"></span>
+							<span class="icon icon-yudi yudi3"></span>
+							<span class="icon icon-yudi yudi4"></span>
+						</div>
+						<div class="safe-content">
+							<h2>下雨了</h2>
+							<p class="sub-intr">大头儿子小头爸爸，一对好朋友快乐父子俩</p>
+							<p><a href="javascript:">查看详情</a></p>
+						</div>
+					</div>
+					<div class="text-center col-xs-4 col-md-4">
+						<div class="one two">
+							<div class="icon icon-rocket"></div>
+							<span class="icon icon-flame flame2"></span>
+							<span class="icon icon-flame flame3"></span>
+							<span class="icon icon-flame flame4"></span>
+						</div>
+						<div class="safe-content">
+							<h2>小飞机</h2>
+							<p class="sub-intr">舒克舒克舒克舒克舒克舒克舒克舒克，开飞机的舒克 </p>
+							<p><a href="javascript:">查看详情</a></p>
+						</div>
+					</div>
+					<div class="text-center col-xs-4 col-md-4">
+						<div class="one three">
+							<div class="icon icon-rotate"></div>
+							<span class="icon icon-rotate rotate2"></span>
+							<span class="icon icon-rotate rotate3"></span>
+							<span class="icon icon-rotate rotate4"></span>
+						</div>
+						<div class="safe-content">
+							<h2>时光轮</h2>
+							<p class="sub-intr">数着一圈圈年轮 我认真 将心事都封存 密密麻麻是我的自尊</p>
+							<p><a href="javascript:">查看详情</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="text-center col-xs-6 col-md-6">
+						<div class="box">
+					        <div class="he_border1">
+					            <img class="he_border1_img" src="images/transition/1.jpg" alt="Image 01">
+					            <div class="he_border1_caption">
+					                <h3 class="he_border1_caption_h">爱生活</h3>
+					                <p class="he_border1_caption_p">生活是一种态度，热爱生活，拥抱快乐</p>
+					                <a class="he_border1_caption_a" href="http://www.w2bc.com/"></a>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+					<div class="text-center col-xs-6 col-md-6">
+						<div class="box">
+					        <div class="he_border2">
+					            <img class="he_border2_img" src="images/transition/2.jpg" alt="Image 01">
+					            <div class="he_border2_caption">
+					                <h3 class="he_border2_caption_h">爱运动</h3>
+					                <p class="he_border2_caption_p">生命在于运动，运动不仅给我我们健康的身体，漂亮的体型，更重要的是给了我们坚持的态度</p>
+					                <a class="he_border2_caption_a" href="http://www.w2bc.com/"></a>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section fp-auto-height">
+			<div class="text-center footerIndex">
+				此致敬礼：感谢所有人的观看
+			</div>
+		</div>
+	</div>
+</body>
+</html>

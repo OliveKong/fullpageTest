@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/css3.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.easings.min.js"></script>-->
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['', '', '#7BAABE', '#f90'],
+				easing:'easeInOutCubic',
+				easingcss3: 'linear',
+				css3:true,
+				navigation:true,
+				scrollingSpeed:500,
+				scrollOverflow:true,
+				paddingTop:0
+			});
+			// $("#header").animate({
+			//   height: 200
+			// },{
+			//   duration: 1000,
+			//   easing: 'easeInOutBounce',
+			//   complete:function(){
+			//   	$(this).animate({
+			//   		height: 50
+			//   	});
+			//   }
+			// });
+		});
+	</script>
+</head>
+<body>
+	<div id="header" class="fixed js-header">
+		<div class="header">
+			<div class="container">
+				<a class="logo"></a>
+				<div class="floatR"></div>
+				<ul class="floatR">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="fullpage">
+		<div class="section section-home active">
+			<div class="slide slide1"> </div>
+			<div class="slide slide2"></div>
+		</div>
+		<div class="section section-intro">
+			<div class="container">
+				<div class="row">
+					<div class="text-center col-xs-4 col-md-4">
+						<div class="one">
+							<div class="icon umbrella"></div>
+							<span class="icon icon-yudi"></span>
+							<span class="icon icon-yudi yudi2"></span>
+							<span class="icon icon-yudi yudi3"></span>
+							<span class="icon icon-yudi yudi4"></span>
+						</div>
+						<div class="safe-content">
+							<h2>安全存储</h2>
+							<p class="sub-intr">依托10余年的存储经验积累，完全自主研发的新一代海量存储系统，独特的多机房互备机制，确保用户数据永不丢失，且持续在线。</p>
+							<p><a href="javascript:">查看详情</a></p>
+						</div>
+					</div>
+					<div class="text-center col-xs-4 col-md-4">
+						<div class="one two">
+							<div class="icon icon-rocket"></div>
+							<span class="icon icon-flame flame2"></span>
+							<span class="icon icon-flame flame3"></span>
+							<span class="icon icon-flame flame4"></span>
+						</div>
+						<div class="safe-content">
+							<h2>安全存储</h2>
+							<p class="sub-intr">依托10余年的存储经验积累，完全自主研发的新一代海量存储系统，独特的多机房互备机制，确保用户数据永不丢失，且持续在线。</p>
+							<p><a href="javascript:">查看详情</a></p>
+						</div>
+					</div>
+					<div class="text-center col-xs-4 col-md-4">
+						<div class="one three">
+							<div class="icon icon-rotate"></div>
+							<span class="icon icon-rotate rotate2"></span>
+							<span class="icon icon-rotate rotate3"></span>
+							<span class="icon icon-rotate rotate4"></span>
+						</div>
+						<div class="safe-content">
+							<h2>安全存储</h2>
+							<p class="sub-intr">依托10余年的存储经验积累，完全自主研发的新一代海量存储系统，独特的多机房互备机制，确保用户数据永不丢失，且持续在线。</p>
+							<p><a href="javascript:">查看详情</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">Some section</div>
+		<div class="section fp-auto-height"><div style="height:1000px; background:#fff;"></div></div>
+		<div class="section fp-auto-height"><div style="height:200px; background:#000;"></div></div>
+	</div>
+</body>
+</html>

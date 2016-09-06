@@ -1,0 +1,63 @@
+/*---      Reset     -----------------------------------------------------*/
+*{ margin:0; padding:0; }
+body {background:#fff; font-family: "Helvetica Neue","Hiragino Sans GB","Arial","微软雅黑","sans-serif" }
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);box-sizing:border-box;}
+*:before,*:after{box-sizing:border-box;}
+fieldset, img { border:0; }/*在ie6下面，只要给插入图片加了链接，就会出现小边框*/
+ol, ul { list-style:none; }
+em { font-style:normal;}
+input, button, select, textarea { outline:none; }
+textarea { resize:none; }
+i,s{ font-style: normal; text-decoration: none;}
+.h1, .h2, .h3, h1, h2, h3{ margin-top: 20px; margin-bottom: 10px;}
+h1,h2,h3,h4,h5,h6{color: #2c2f35};
+a {text-decoration:none; }
+a:hover { text-decoration:none; }
+.clearfix:after{display:block; height:0px; overflow: hidden; content:"";clear:both;}
+.clearfix{zoom:1;}
+
+/* 禁用iPhone中Safari的字号自动调整 */
+html { -webkit-text-size-adjust:100%;  -ms-text-size-adjust: 100%;}
+
+/* 设置图片视频等自适应调整 */
+img {max-width: 100%;height: auto;width: auto\9; /* ie8 */}
+video embed, video object, video iframe {width: 100%;height: auto;}
+
+/*---      Global-Css     -----------------------------------------------------*/
+.txtCen{text-align: center;}
+.marginAuto{margin: 0 auto;}
+.hidden{display: none;}
+.font-weiR{ font-family: "微软雅黑"};
+.positonR{position: relative;}
+.floatL{float: left;}
+.floatR{float:right;}
+
+/*margin start*/
+.mt5{margin-top: 5px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 40px;}
+.mt30{margin-top: 30px;}
+.mt35{margin-top: 35px;}
+.mt40{margin-top: 40px;}
+.mt45{margin-top: 45px;}
+.mr5{margin-right: 5px;}
+.mr10{margin-right: 10px;}
+.mr15{margin-right: 15px;}
+.mr20{margin-right: 20px;}
+.mb5{margin-bottom: 5px;}
+.mb10{margin-bottom: 10px;}
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
+.mb30{margin-bottom: 30px;}
+.mb50{margin-bottom: 50px;}
+.mb70{margin-bottom: 70px;}
+.ml5{margin-left: 5px;}
+.ml10{margin-left: 10px;}
+.ml15{margin-left: 15px;}
+.ml20{margin-left: 20px;}
+.ml25{margin-left: 25px;}
+.ml30{margin-left: 30px;}
+.pt10{padding-top: 10px;}
+/*margin end*/
