@@ -108,6 +108,7 @@ animation:rotate2 2s linear infinite;
 {
     width: 197px;
     height: 197px;
+    margin:40px auto 0;
 }
 .circle
 {
@@ -138,8 +139,8 @@ animation:rotate2 2s linear infinite;
     top: 50%;
     left: 50%;
 
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     margin-top: -25px;
     margin-left: -25px;
     -webikit-animation: rotate2 2s linear infinite;
@@ -147,12 +148,12 @@ animation:rotate2 2s linear infinite;
      -ms-animation: rotate2 2s linear infinite;
       -o-animation: rotate2 2s linear infinite;
          animation: rotate2 2s linear infinite;
-    background-position: -660px -246px;
+    background-position: -661px -246px;
 }
 .circleCube
 {
     position: relative;
-    border-color: #38ba9c;
+    border-color: #f587ad;
 }
 .cubeGroup{
 	position: absolute;
@@ -181,7 +182,7 @@ animation:rotate2 2s linear infinite;
     display: block;
     width: 22px;
     height: 22px;
-    background: #38ba9c;
+    background: #f587ad;
 }
 .cube1
 {
@@ -222,7 +223,7 @@ animation:rotate2 2s linear infinite;
 .cube7{ top: 66px; left: 0px;}
 .cube8{ top: 66px; left: 33px;}
 .cube9{ top: 66px; left: 66px;}
-.circleClock{border-color: #8879b8;}
+.circleClock{border-color: #e68f70;}
 .clock
 {
     position: relative;
@@ -230,7 +231,7 @@ animation:rotate2 2s linear infinite;
     height: 120px;
     margin: 30px auto 0;
     border-radius: 50%;
-    background: #8879b8;
+    background: #e68f70;
 }
 .iconClock
 {
